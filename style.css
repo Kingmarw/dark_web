@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+*{
+    font-family: Cairo;
+}
+body{
+    background : linear-gradient(80deg, rgb(26, 115, 232) 2%, rgb(81, 45, 168) 58%) repeat;
+}
+.c{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    bottom: 0;
+    width: 50%;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    backdrop-filter: blur(19px);
+}
+#k{
+    font-weight: 50rem;
+    font-size: 3rem;
+    margin: auto;
+}
+#j{
+    cursor: pointer;
+    margin: 0;
+}
+#inp{
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #7a19a0;
+}
+#btn{
+    background: linear-gradient(80deg, rgb(26, 115, 232) 2%, rgb(81, 45, 168) 58%);
+    width: 150px;
+    border-radius: 39px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s ease ;
+}
+#btn:hover{
+    transform: scale(1.1);
+}
+.text{
+    font-size: 90px;
+}
+.port{
+    text-decoration: none;
+    color: #7a19a0;
+}
+.port:hover{
+    text-decoration: underline;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
