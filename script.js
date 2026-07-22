@@ -68,7 +68,7 @@ inp.onkeyup = function () {
     localStorage.setItem('name', inp.value);
 }
 btn.onclick = function () {
-    if (localStorage.name == '<dark>black-hack<dark/>') {
+    if (localStorage.name == '<dark>black-hat<dark/>') {
         div.style.display = 'none';
         container.style.display = 'none';
         alert("Ooops! the website has been hacked!");
