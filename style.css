@@ -4,7 +4,7 @@
 }
 body{
     background : linear-gradient(80deg, rgb(26, 115, 232) 2%, rgb(81, 45, 168) 58%) no-repeat;
-    hieght: 100vh;
+    height: 100vh;
 }
 .c{
     display: flex;
